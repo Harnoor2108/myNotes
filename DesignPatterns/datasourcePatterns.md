@@ -17,4 +17,12 @@ Slowest transaction - Reading and writing to the dtabase
   1.  Unit of Work - Lists changes to objects before forwarding to database and allows commits.
   2.  Identity map - Ensures each objct is loaded from the databse only once. Checks if the object is already loaded then get the same object else go to the database and find the object. The object is not persistant.
   3.  Lazy Loading - Does not get the data till it is mandatory
+
+> ### Structural Patterns
+
+Relating database Rows to in memory objects
+
+
+
+
    
