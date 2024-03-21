@@ -5,8 +5,8 @@
 1. Rowdata gateway - When each row is returned as an object. Organised but a lot of objects floating around.
 2. table data gateway - All the rows are merged into a single object
 3. Record set - a bunch of parallel arrays, data pulled out of database
-4. Active Record - Combine data source and domain logic into one object. Used effeciently with data model and transaction scripts nu tnot with complex data models.
-5. Data mapper - separated data access from domain logic. Complex pattern. Completely independent from each other. Useful in providing losose coupling.
+4. Active Record - Combine data source and domain logic into one object. Used effeciently with data model and transaction scripts but not with complex data models.
+5. Data mapper - separated data access from domain logic. Complex pattern. Completely independent from each other. Useful in providing loose coupling.
 
 
 > ### Behavioural Patterns
@@ -21,6 +21,8 @@ Slowest transaction - Reading and writing to the dtabase
 > ### Structural Patterns
 
 Relating database Rows to in memory objects
+
+
 
 
 
