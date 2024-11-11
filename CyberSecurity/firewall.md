@@ -28,4 +28,18 @@ Snort is an open source Intrusion Detection system. It is a command line based I
 
 ### 3. What are the types of wifi security discussed in firewall.docx. Give brief description of each.
 
+- Wired Equivalent Privacy (WEP): Uses RC4 stream cipher and a CRC-32 checksum for error checking, with key lengths of 40-bit or 104-bit plus a 24-bit initialization vector. WEP is insecure due to reused IVs, making it susceptible to attacks.
+
+- Wi-Fi Protected Access (WPA): Improves on WEP by using AES encryption and the Temporal Key Integrity Protocol (TKIP), which generates a new key for each packet, making it more secure.
+
+- WPA2: Based on the IEEE 802.11i standard, WPA2 uses AES encryption with CCMP (Counter Mode-Cipher Block Chaining Message Authentication Code Protocol), ensuring strong data confidentiality, integrity, and origin authentication.
+
+- WPA3: Released in 2018, WPA3 encrypts all traffic to and from the wireless access point and resists brute-force attacks by requiring interaction with the Wi-Fi for each password guess attempt, enhancing security.
+
+### 4. What is the difference between cloud firewall and next-generation firewall?
+
+- Cloud Firewall: A cloud firewall is deployed within the cloud to protect cloud-based assets and manage incoming and outgoing traffic between cloud environments. It provides security for resources hosted on cloud infrastructure and is typically managed by the cloud provider, offering scalable and flexible protection for virtual networks.
+
+- Next-Generation Firewall (NGFW): An NGFW is deployed on-premises or within data centers and combines traditional firewall functions with advanced features like deep packet inspection, intrusion prevention, and application-layer filtering. NGFWs are designed to analyze traffic at multiple layers, providing more robust protection for physical networks and hybrid infrastructures.
+
   
